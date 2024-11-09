@@ -21,9 +21,9 @@ Web customization for practice in Odoo v18.
     'website': 'https://gmostafa1210.github.io/',
     'company': 'G. Mostafa',
     'maintainer': 'G. Mostafa',
-    'depends': ['base', 'website'],
+    'depends': ['base', 'contacts', 'website', 'portal'],
     'data': [
-        
+        'views/res_partner_website_views.xml',
     ],
     # 'images': ['static/description/banner.gif'],
     'license': 'LGPL-3',

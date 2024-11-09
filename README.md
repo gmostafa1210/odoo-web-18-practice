@@ -1,1 +1,1 @@
-# odoo-web-18-practice
+# odoo-web-practice v18

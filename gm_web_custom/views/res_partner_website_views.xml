@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<record id="res_partner_website_form_view" model="website.menu">
+		<field name="name">Partner</field>
+		<field name="url">/res_partner_web</field>
+		<field name="parent_id" ref="website.main_menu"/>
+		<field name="sequence">10</field>
+	</record>
+
+	<template id="portal_my_home" inherit_id="portal.portal_my_home">
+		<xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
+            <t t-call="portal.portal_docs_entry">
+                <!-- <t t-set="icon" t-value="'/gm_web_custom/static/description/icon.png'"/> -->
+                <t t-set="title">Partner and Customer</t>
+                <!-- <t t-set="url" t-value="'/my/res_partner_web'"/> -->
+                <!-- <t t-set="text">View partner and customer</t> -->
+                <!-- <t t-set="placeholder_count" t-value="'order_count'"/> -->
+            </t>
+        </xpath>
+	</template>
+
+</odoo>
