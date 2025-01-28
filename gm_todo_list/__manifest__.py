@@ -7,15 +7,15 @@
 ###################################################################
 
 {
-    'name': 'Basic OWL and Website',
+    'name': 'Basic To-Do List',
     'version': '18.0.1.0.0',
     'category': 'Website/Website',
     'sequence': -1,
-    'summary': 'Basic OWL and Website',
+    'summary': 'Basic To-Do List',
     'description': """
-Basic OWL and Website
+Basic To-Do List
 ===========================
-Basic OWL and Website for practice in Odoo v18.
+Basic To-Do List for practice in Odoo v18.
     """,
     'author': 'G. Mostafa',
     'website': 'https://gmostafa1210.github.io/',

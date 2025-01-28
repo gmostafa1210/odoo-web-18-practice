@@ -35,6 +35,7 @@
         <field name="view_mode">list,form</field>
     </record>
 
-	<menuitem id="menu_todo_list" name="To-Do List" action="action_todo_list"/>
+	<menuitem id="menu_todo_list" name="To-Do List" action="action_todo_list"
+		web_icon="gm_todo_list,static/description/icon.png"/>
 	
 </odoo>
