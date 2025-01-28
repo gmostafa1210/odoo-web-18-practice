@@ -1,1 +1,5 @@
-# odoo-web-practice v18
+# OWL JS and Website v18
+
+**Module:**
+
+> gm_todo_list
