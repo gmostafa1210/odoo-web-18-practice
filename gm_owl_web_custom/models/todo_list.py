@@ -9,5 +9,10 @@
 from odoo import fields, models, api
 
 
-class ResPartner(models.Model):
-    _inherit = "res.partner"
+class TodoList(models.Model):
+    """ Model for todo list """
+    _name = "todo.list"
+
+    name = fields.Char(string="Name", required=True)
+    is_done = fields.Boolean(string="Is Done", default=False)
+    color = fields.Char(string="Color")

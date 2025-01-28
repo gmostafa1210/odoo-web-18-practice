@@ -7,23 +7,24 @@
 ###################################################################
 
 {
-    'name': 'Web Customization',
+    'name': 'Basic OWL and Website',
     'version': '18.0.1.0.0',
     'category': 'Website/Website',
-    'sequence': 1,
-    'summary': 'Web Customization',
+    'sequence': -1,
+    'summary': 'Basic OWL and Website',
     'description': """
-Web Customization
+Basic OWL and Website
 ===========================
-Web customization for practice in Odoo v18.
+Basic OWL and Website for practice in Odoo v18.
     """,
     'author': 'G. Mostafa',
     'website': 'https://gmostafa1210.github.io/',
     'company': 'G. Mostafa',
     'maintainer': 'G. Mostafa',
-    'depends': ['base', 'contacts', 'website', 'portal'],
+    'depends': ['base'],
     'data': [
-        'views/res_partner_website_views.xml',
+        'security/ir.model.access.csv',
+        'views/todo_list_views.xml',
     ],
     # 'images': ['static/description/banner.gif'],
     'license': 'LGPL-3',
